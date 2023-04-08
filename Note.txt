@@ -3,4 +3,14 @@ Build a responsive, animated, accessible accordion that looks pretty good (https
 https://codepen.io/z-/pen/OBPJKK
 https://github.com/Annie-Huang/horizontal-accordion
 
+https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion/
 ----------------------------------------------------------------
+
+The key is:
+- Tab and shift Tab to go forward and backwards to the next accordion
+- Space or Enter to open | close the accordion
+
+with role='region' in the accordion-content, in window,
+once you tabs and open with keyboard, and in narrator, type 'd', it will go to the next region area.
+without it, there is not easy way to jump to that area.
+so it's important to have aria-labelledby + role
