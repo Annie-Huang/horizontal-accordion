@@ -1,0 +1,6 @@
+Build a responsive, animated, accessible accordion that looks pretty good (https://www.youtube.com/watch?v=WJERnXiFFug)
+
+https://codepen.io/z-/pen/OBPJKK
+https://github.com/Annie-Huang/horizontal-accordion
+
+----------------------------------------------------------------
